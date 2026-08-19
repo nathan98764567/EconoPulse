@@ -1,0 +1,17 @@
+{
+  "updatedAt": null,
+  "articles": [
+    {
+      "id": "demo-1",
+      "title": "ÉconoPulse V2.1 est prêt",
+      "summary": "Lance l’action GitHub « Update ÉconoPulse news » pour remplir automatiquement le fil avec des sources réelles.",
+      "source": "ÉconoPulse",
+      "sourceType": "officiel",
+      "sector": "Tous",
+      "published": "2026-08-18T00:00:00Z",
+      "url": "https://github.com/",
+      "impact": "à surveiller",
+      "entities": []
+    }
+  ]
+}

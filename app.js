@@ -1,29 +1,54 @@
-const news=[
-{id:1,sector:"Technologie",title:"La course à l’IA accélère encore",source:"ÉconoPulse Intelligence",time:"Il y a 18 min",summary:"Les dépenses en infrastructures IA continuent d’influencer les semi-conducteurs, les fournisseurs cloud et les fabricants de serveurs.",impact:"positif",companies:["NVDA","AMD","TSM","MSFT"],why:"Une hausse des investissements en IA peut soutenir la demande de GPU, de fonderies et de capacité cloud. L’effet varie selon les dépenses réelles et les marges.",tags:["IA","Semi-conducteurs","Cloud"]},
-{id:2,sector:"Finance",title:"Les marchés surveillent la trajectoire des taux",source:"Marchés",time:"Il y a 42 min",summary:"Les attentes de taux restent un moteur majeur pour les banques, les assureurs et les valorisations boursières.",impact:"neutre",companies:["RY","TD","JPM","GS"],why:"Les taux influencent directement le coût du capital, les marges d’intérêt et la valeur actualisée des bénéfices.",tags:["Taux","Banques","Macro"]},
-{id:3,sector:"Pharmaceutique",title:"Les investisseurs scrutent les pipelines de médicaments",source:"Santé & Marchés",time:"Il y a 1 h",summary:"Les résultats d’essais cliniques et les décisions réglementaires peuvent déplacer fortement les valorisations du secteur.",impact:"positif",companies:["LLY","NVO","MRK"],why:"Une approbation ou un essai réussi peut modifier les revenus futurs attendus; l’inverse peut provoquer une forte révision des valorisations.",tags:["Médicaments","FDA","Biotech"]},
-{id:4,sector:"Immobilier",title:"Le coût du financement reste au centre de l’attention",source:"Immobilier",time:"Il y a 2 h",summary:"Les taux et les conditions de crédit continuent d’influencer les transactions, les promoteurs et les REIT.",impact:"négatif",companies:["PLD","AMT","VNQ"],why:"Des coûts de financement plus élevés peuvent réduire la demande et la valeur des actifs, alors qu’une détente des taux peut produire l’effet inverse.",tags:["REIT","Crédit","Taux"]},
-{id:5,sector:"Spatial",title:"Le spatial devient une industrie économique à part entière",source:"Industries futures",time:"Il y a 3 h",summary:"L’augmentation des lancements, des satellites et des services en orbite crée de nouvelles chaînes de valeur.",impact:"positif",companies:["RKLB","LMT","NOC"],why:"Plus de lancements et de contrats peuvent profiter aux fabricants, opérateurs et fournisseurs de composants spécialisés.",tags:["Satellites","Lancements","Défense"]},
-{id:6,sector:"Énergie",title:"Pétrole, électricité et demande industrielle",source:"Commodités",time:"Il y a 4 h",summary:"Les prix de l’énergie se répercutent sur les coûts industriels, le transport et les marges des producteurs.",impact:"neutre",companies:["XOM","CVX","ENB"],why:"Le même mouvement de prix peut être positif pour les producteurs et négatif pour les entreprises fortement consommatrices d’énergie.",tags:["Pétrole","Électricité","Commodités"]}
-];
-const sectors=["Tous","Technologie","Finance","Pharmaceutique","Immobilier","Spatial","Énergie"];
-let selected="Tous", query="", watch=JSON.parse(localStorage.getItem("watch")||"[]");
+const sectors=["Tous","Technologie","Finance","Pharmaceutique","Immobilier","Spatial","Énergie","Politique","Économie","Général"];
+let state={articles:[],selected:"Tous",query:"",watch:JSON.parse(localStorage.getItem("watch")||"[]")};
 
+async function loadNews(){
+  try{
+    const r=await fetch("data/news.json?ts="+Date.now(),{cache:"no-store"});
+    const d=await r.json(); state.articles=d.articles||[];
+    const t=d.updatedAt?new Date(d.updatedAt).toLocaleString("fr-CA"):"";
+    document.getElementById("updated").textContent=t?"Mis à jour "+t:"";
+    chips(); render();
+  }catch(e){
+    document.getElementById("feed").innerHTML='<div class="empty">Impossible de charger les nouvelles pour le moment. Vérifie data/news.json.</div>';
+  }
+}
+
+function chips(){
+  document.getElementById("chips").innerHTML=sectors.map(s=>`<button class="${s===state.selected?"active":""}" onclick="state.selected='${s}';chips();render()">${s}</button>`).join("");
+}
 function render(){
- let arr=news.filter(n=>(selected==="Tous"||n.sector===selected)&&(!query||(`${n.title} ${n.summary} ${n.companies.join(" ")} ${n.sector}`.toLowerCase().includes(query.toLowerCase()))));
- document.getElementById("count").textContent=arr.length+" nouvelles";
- document.getElementById("feed").innerHTML=arr.length?arr.map(n=>`<article class="card"><button onclick="openNews(${n.id})"><div class="meta">${n.sector} · ${n.source} · ${n.time}</div><h3>${n.title}</h3><div class="summary">${n.summary}</div><div class="impact"><span class="pill ${n.impact}">${n.impact==="positif"?"↗ Impact positif":n.impact==="négatif"?"↘ Impact négatif":"→ Impact à surveiller"}</span>${n.companies.slice(0,3).map(c=>`<span class="pill">${c}</span>`).join("")}</div></button></article>`).join(""):`<div class="empty">Aucune nouvelle trouvée.</div>`;
+  let arr=state.articles.filter(n=>(state.selected==="Tous"||n.sector===state.selected)&&(!state.query||(`${n.title} ${n.summary} ${n.source} ${(n.entities||[]).join(" ")}`.toLowerCase().includes(state.query.toLowerCase()))));
+  document.getElementById("count").textContent=arr.length+" nouvelles";
+  document.getElementById("feed").innerHTML=arr.length?arr.map(n=>`
+  <article class="card">
+    <a class="cardlink" href="${escapeAttr(n.url)}" target="_blank" rel="noopener">
+      <div class="meta">${escape(n.sector)} · ${escape(n.source)} · ${n.sourceType==="officiel"?"SOURCE OFFICIELLE":"SOURCE AGRÉGÉE"}</div>
+      <h3>${escape(n.title)}</h3>
+      <div class="summary">${escape(n.summary||"")}</div>
+      <div class="impact">
+        <span class="pill ${n.impact==="important"?"important":"neutral"}">${n.impact==="important"?"⚡ Important":"• À surveiller"}</span>
+        ${(n.entities||[]).slice(0,4).map(e=>`<span class="pill">${escape(e)}</span>`).join("")}
+      </div>
+    </a>
+  </article>`).join(""):`<div class="empty">Aucune nouvelle trouvée.</div>`;
 }
-function chips(){document.getElementById("chips").innerHTML=sectors.map(s=>`<button class="${s===selected?"active":""}" onclick="selected='${s}';chips();render()">${s}</button>`).join("")}
-function openNews(id){
- const n=news.find(x=>x.id===id), saved=n.companies.filter(c=>watch.includes(c));
- document.getElementById("modalBody").innerHTML=`<div class="meta">${n.sector} · ${n.source}</div><h2>${n.title}</h2><p>${n.summary}</p><h4>Pourquoi c’est important</h4><p>${n.why}</p><h4>Entreprises à surveiller</h4><div class="impact">${n.companies.map(c=>`<span class="pill">${c}</span>`).join("")}</div><h4>Tags</h4><div class="impact">${n.tags.map(t=>`<span class="pill">${t}</span>`).join("")}</div><button class="brief" style="margin-top:24px" onclick="toggleCompanies(${n.id})">${saved.length?"✓ Dans votre suivi":"☆ Ajouter les entreprises au suivi"}</button>`;
- document.getElementById("modal").classList.remove("hidden");
+function escape(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+function escapeAttr(s){return escape(s).replace(/javascript:/gi,"")}
+function showWatch(){
+  const arr=state.articles.filter(n=>(n.entities||[]).some(e=>state.watch.includes(e)));
+  document.getElementById("feed").innerHTML=arr.length?arr.map(n=>`
+  <article class="card"><a class="cardlink" href="${escapeAttr(n.url)}" target="_blank" rel="noopener">
+  <div class="meta">${escape(n.source)} · ${escape(n.sector)}</div><h3>${escape(n.title)}</h3><div class="summary">${escape(n.summary||"")}</div>
+  <div class="impact">${(n.entities||[]).filter(e=>state.watch.includes(e)).map(e=>`<span class="pill">${escape(e)}</span>`).join("")}</div>
+  </a></article>`).join(""):`<div class="empty">Ajoute des entreprises dans ton suivi depuis Réglages V2.2.</div>`;
 }
-function toggleCompanies(id){const n=news.find(x=>x.id===id);n.companies.forEach(c=>{if(!watch.includes(c))watch.push(c)});localStorage.setItem("watch",JSON.stringify(watch));openNews(id)}
-function closeModal(){document.getElementById("modal").classList.add("hidden")}
-function showBrief(){document.getElementById("modalBody").innerHTML=`<div class="meta">BRIEFING ÉCONOMIQUE</div><h2>Les 5 choses à comprendre aujourd’hui</h2><p>ÉconoPulse regroupe les événements susceptibles d’influencer les secteurs et les entreprises que vous suivez.</p><h4>Comment lire l’app</h4><ol><li>Commencez par les nouvelles à impact élevé.</li><li>Regardez les entreprises directement exposées.</li><li>Utilisez les secteurs pour trouver les tendances.</li><li>Ajoutez vos titres à votre suivi.</li></ol><p><b>Version actuelle :</b> prototype fonctionnel avec données de démonstration. La prochaine étape consiste à brancher les flux d’actualité en temps réel et une couche d’analyse automatisée.</p>`;document.getElementById("modal").classList.remove("hidden")}
-document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render()});
-document.getElementById("watchBtn").onclick=()=>{selected="Tous";query="";document.getElementById("search").value="";document.getElementById("feed").innerHTML=watch.length?watch.map(c=>`<div class="card"><div class="meta">ENTREPRISE SUIVIE</div><h3>${c}</h3><div class="summary">Actualités et événements liés à cette entreprise.</div></div>`).join(""):`<div class="empty">Aucune entreprise suivie. Ouvrez une nouvelle et ajoutez les entreprises proposées.</div>`};
-document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));b.classList.add("active"); if(b.dataset.page==="home"){chips();render()} else if(b.dataset.page==="sectors"){selected="Tous";chips();render();document.querySelector(".hero h1").innerHTML="Explorez les<br><span>secteurs.</span>"} else if(b.dataset.page==="watch"){document.getElementById("watchBtn").click()} else {showBrief()}});
-chips();render();
+document.getElementById("search").addEventListener("input",e=>{state.query=e.target.value;render()});
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));b.classList.add("active");
+  const p=b.dataset.page;
+  if(p==="home"){document.querySelector(".hero h1").innerHTML="Ce qui bouge<br><span>aujourd’hui.</span>";chips();render();}
+  else if(p==="sectors"){document.querySelector(".hero h1").innerHTML="Explorez les<br><span>secteurs.</span>";chips();render();}
+  else if(p==="watch"){document.querySelector(".hero h1").innerHTML="Vos<br><span>suivis.</span>";showWatch();}
+  else {document.querySelector(".hero h1").innerHTML="ÉconoPulse<br><span>V2.1.</span>";document.getElementById("feed").innerHTML='<div class="card"><h3>Sources V2.1</h3><p class="summary">Banque du Canada, Federal Reserve, BCE, Statistique Canada, FMI, Maison-Blanche et GDELT.</p><p class="summary">Les sources officielles sont identifiées séparément des sources agrégées.</p></div>';}
+});
+loadNews();
