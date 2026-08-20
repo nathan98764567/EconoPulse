@@ -4,7 +4,7 @@ from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 from html.parser import HTMLParser
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CFG = json.load(open(os.path.join(ROOT, "sources.json"), encoding="utf-8"))
 OUT = os.path.join(ROOT, "data", "news.json")
 
@@ -210,6 +210,87 @@ for a in sorted(all_articles, key=lambda x:x.get("published",""), reverse=True):
     seen.add(key); final.append(a)
 
 final=final[:500]
+
+# -----------------------------
+# ÉconoPulse Impact Analysis V2.2
+# -----------------------------
+DIRECTION_POSITIVE = [
+    r"\b(rate cut|lower rates|falling rates|approval|approved|record sales|strong earnings|beat estimates|contract win|government funding|subsidy|demand rises|price increase|acquisition|boost|growth|expansion|investment|partnership|orders|successful trial)\b",
+]
+DIRECTION_NEGATIVE = [
+    r"\b(rate hike|higher rates|rising rates|rejection|rejected|recall|miss estimates|weak earnings|layoffs|sanction|ban|tariff|trade restriction|investigation|lawsuit|demand falls|decline|slump|warning|delay|failure|losses|cut forecast|downgrade)\b",
+]
+
+COMPANY_PROFILES = {
+    "NVIDIA": ["ai","semiconductor","chip","data center"],
+    "AMD": ["ai","semiconductor","chip","data center"],
+    "Apple": ["consumer","smartphone","tariff","supply chain"],
+    "Microsoft": ["ai","cloud","software","enterprise"],
+    "Amazon": ["consumer","cloud","retail","logistics"],
+    "Tesla": ["ev","electric vehicle","battery","autos"],
+    "TSMC": ["semiconductor","chip","ai","fab"],
+    "JPMorgan": ["bank","interest rate","credit","yield"],
+    "Bank of America": ["bank","interest rate","credit","yield"],
+    "Pfizer": ["drug","clinical trial","fda","pharma"],
+    "Eli Lilly": ["drug","obesity","fda","pharma"],
+    "Novo Nordisk": ["drug","obesity","fda","pharma"],
+    "Lockheed Martin": ["defense","space","government contract"],
+    "Rocket Lab": ["space","satellite","launch","government contract"],
+}
+
+def analyze_impact(title, summary, sector, entities):
+    text = (title + " " + summary).lower()
+    pos = sum(1 for pat in DIRECTION_POSITIVE if re.search(pat, text))
+    neg = sum(1 for pat in DIRECTION_NEGATIVE if re.search(pat, text))
+    broad = any(x in text for x in [
+        "interest rate","inflation","tariff","trade","regulation",
+        "executive order","election","central bank","recession"
+    ])
+    score = (min(pos,2) * 28) - (min(neg,2) * 28)
+    if broad:
+        score += 12
+    if sector in ("Politique","Économie","Finance"):
+        score += 5
+    score = max(-100, min(100, score))
+    direction = "positif" if score >= 30 else "négatif" if score <= -30 else "neutre"
+    magnitude = "élevé" if abs(score) >= 55 or broad else "moyen" if abs(score) >= 25 else "faible"
+    confidence = min(95, 45 + abs(score) + (15 if entities else 0) + (10 if broad else 0))
+    winners, risks = [], []
+    for company in entities:
+        keys = COMPANY_PROFILES.get(company, [])
+        hits = sum(1 for k in keys if k in text)
+        if hits:
+            if score > 0:
+                winners.append(company)
+            elif score < 0:
+                risks.append(company)
+    d = {"positif":"plutôt favorable", "négatif":"plutôt défavorable", "neutre":"encore difficile à trancher"}[direction]
+    explanation = f"Impact {d}, intensité {magnitude}. Secteur principal : {sector}."
+    if broad:
+        explanation += " Le sujet peut aussi avoir des effets indirects sur d'autres secteurs."
+    if winners:
+        explanation += " Entreprises potentiellement favorisées : " + ", ".join(winners) + "."
+    if risks:
+        explanation += " Entreprises potentiellement exposées : " + ", ".join(risks) + "."
+    return {
+        "score": score,
+        "direction": direction,
+        "magnitude": magnitude,
+        "confidence": round(confidence),
+        "explanation": explanation,
+        "potentialWinners": winners[:6],
+        "potentialRisks": risks[:6],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+    }
+
+for a in final:
+    a["analysis"] = analyze_impact(
+        a.get("title",""),
+        a.get("summary",""),
+        a.get("sector","Général"),
+        a.get("entities",[])
+    )
+
 payload={"updatedAt":datetime.now(timezone.utc).isoformat(),"articles":final}
 with open(OUT,"w",encoding="utf-8") as f: json.dump(payload,f,ensure_ascii=False,indent=2)
 print("Wrote",len(final),"articles")

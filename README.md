@@ -1,23 +1,9 @@
-# ÉconoPulse V2.1
+# ÉconoPulse V2.2 — Analyse
 
-V2.1 ajoute une collecte automatique de nouvelles économiques et politiques à partir de flux RSS/Atom et de sources ouvertes.
+V2.2 ajoute une première couche d'analyse automatique sans clé API.
 
-## Installation
-1. Remplace les fichiers de ton ancien dépôt par ceux de cette archive.
-2. Conserve ton repository GitHub Pages existant.
-3. Dans Settings > Actions > General, vérifie que les workflows peuvent s'exécuter.
-4. Dans Actions, lance "Update ÉconoPulse news" avec "Run workflow".
-5. Attends quelques instants puis recharge ton site GitHub Pages.
+Chaque article reçoit un score d'impact (-100 à +100), une direction (positif/neutre/négatif), une intensité, un niveau de confiance, une explication et, quand possible, des entreprises potentiellement favorisées ou exposées.
 
-La collecte tourne ensuite automatiquement toutes les 30 minutes.
+Le moteur est basé sur des règles et mots-clés. Il s'agit d'une analyse indicative, pas d'une recommandation financière.
 
-## Sources V2.1
-- Bank of Canada
-- Federal Reserve
-- European Central Bank
-- Statistics Canada
-- IMF
-- White House Presidential Actions
-- GDELT pour élargir la couverture des nouvelles publiques
-
-Les contenus sont conservés comme liens vers leurs sources. L'app distingue les sources officielles des agrégées.
+Déploiement : remplace les fichiers du dépôt par cette version, puis lance Actions → update-news.yml → Run workflow.
