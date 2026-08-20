@@ -4,7 +4,7 @@ from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 from html.parser import HTMLParser
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 CFG = json.load(open(os.path.join(ROOT, "sources.json"), encoding="utf-8"))
 OUT = os.path.join(ROOT, "data", "news.json")
 
