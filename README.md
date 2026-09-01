@@ -1,9 +1,21 @@
 # ÉconoPulse V2.2 — Analyse
 
-V2.2 ajoute une première couche d'analyse automatique sans clé API.
+Version complète avec collecte automatique et première analyse d'impact.
 
-Chaque article reçoit un score d'impact (-100 à +100), une direction (positif/neutre/négatif), une intensité, un niveau de confiance, une explication et, quand possible, des entreprises potentiellement favorisées ou exposées.
+## Structure
+- index.html
+- style.css
+- app.js
+- manifest.json
+- sources.json
+- scripts.py
+- data/news.json
+- .github/workflows/update-news.yml
 
-Le moteur est basé sur des règles et mots-clés. Il s'agit d'une analyse indicative, pas d'une recommandation financière.
+## Déploiement
+Remplace les fichiers du dépôt par cette version en conservant les chemins.
+Puis : Actions → `Update ÉconoPulse news` → `Run workflow`.
 
-Déploiement : remplace les fichiers du dépôt par cette version, puis lance Actions → update-news.yml → Run workflow.
+Le moteur d'analyse ajoute un score de -100 à +100, une direction, une intensité, une confiance, une explication et les entreprises potentiellement favorisées/exposées.
+
+Cette analyse est indicative et ne constitue pas une recommandation financière.

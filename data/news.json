@@ -1,17 +1,1 @@
-{
-  "updatedAt": null,
-  "articles": [
-    {
-      "id": "demo-1",
-      "title": "ÉconoPulse V2.1 est prêt",
-      "summary": "Lance l’action GitHub « Update ÉconoPulse news » pour remplir automatiquement le fil avec des sources réelles.",
-      "source": "ÉconoPulse",
-      "sourceType": "officiel",
-      "sector": "Tous",
-      "published": "2026-08-18T00:00:00Z",
-      "url": "https://github.com/",
-      "impact": "à surveiller",
-      "entities": []
-    }
-  ]
-}
+{"updatedAt":null,"articles":[{"id":"welcome-v22","title":"ÉconoPulse V2.2 est prêt","summary":"Lance le workflow GitHub pour récupérer les nouvelles et calculer automatiquement un premier score d’impact.","source":"ÉconoPulse","sourceType":"system","sector":"Général","published":"2026-08-31T00:00:00Z","url":"https://github.com/","impact":"à surveiller","entities":[],"analysis":{"score":0,"direction":"neutre","magnitude":"faible","confidence":50,"explanation":"Article de démonstration en attendant la première mise à jour automatique.","potentialWinners":[],"potentialRisks":[],"disclaimer":"Analyse automatique indicative, pas une recommandation financière."}}]}
