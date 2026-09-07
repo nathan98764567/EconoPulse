@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T09:41:05.186364+00:00",
+  "updatedAt": "2026-09-07T10:07:41.819204+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -228,7 +228,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-07T09:40:43.005146+00:00",
+      "published": "2026-09-07T10:07:19.957009+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-07T09:40:43.005128+00:00",
+      "published": "2026-09-07T10:07:19.956983+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-07T09:40:43.005109+00:00",
+      "published": "2026-09-07T10:07:19.956955+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-07T09:40:43.005087+00:00",
+      "published": "2026-09-07T10:07:19.956923+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,7 +316,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-07T09:40:43.005040+00:00",
+      "published": "2026-09-07T10:07:19.956875+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
       "impact": "à surveiller",
       "entities": [],
@@ -354,6 +354,72 @@
       }
     },
     {
+      "id": "6f2da0653d6028d9",
+      "title": "Philip R. Lane: Diversity at the European Central Bank",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-09-04T09:10:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260904~7b9257099b.en.pdf",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 17,
+        "direction": "neutre",
+        "magnitude": "élevé",
+        "confidence": 72,
+        "explanation": "Impact encore difficile à trancher, intensité élevé. Secteur principal : Finance. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "ca76ddca628a213d",
+      "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-09-01T16:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "392ea3c69ff3c98f",
+      "title": "Isabel Schnabel: Central banks on-chain",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-08-28T16:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 17,
+        "direction": "neutre",
+        "magnitude": "élevé",
+        "confidence": 72,
+        "explanation": "Impact encore difficile à trancher, intensité élevé. Secteur principal : Finance. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
       "id": "79b5fc9dead8a71f",
       "title": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
       "summary": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
@@ -376,6 +442,50 @@
       }
     },
     {
+      "id": "2f57657ad4b3c999",
+      "title": "Meeting of 22-23 July 2026",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-08-27T11:30:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "8cd2813fd424814d",
+      "title": "Piero Cipollone: From vision to delivery: building Europe’s tokenised financial market",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-08-26T10:15:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260826~3641116314.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
       "id": "78a8b0e73d4d89b8",
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
@@ -384,6 +494,50 @@
       "sector": "Finance",
       "published": "2026-08-25T18:00:00+00:00",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "aa0db467bc0d8c9c",
+      "title": "Piero Cipollone: Interview with ilsussidiario.net",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-08-24T06:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260824~fa5acbddea.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "1ba9aefa52af944d",
+      "title": "ECB Consumer Expectations Survey results – July 2026",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-08-21T08:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -486,6 +640,50 @@
       }
     },
     {
+      "id": "0c8c9e40deebbf0c",
+      "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Économie",
+      "published": "2026-08-19T07:10:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Économie.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "321dd75f1966ec99",
+      "title": "Philip R. Lane: The rise in defence spending and the euro area economy",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Économie",
+      "published": "2026-08-17T09:30:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260817~1f9f7149c9.en.pdf",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Économie.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
       "id": "37e5572751f82b78",
       "title": "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
       "summary": "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
@@ -494,6 +692,72 @@
       "sector": "Finance",
       "published": "2026-08-13T15:00:00+00:00",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260813a.htm",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "77ff3f23e4296806",
+      "title": "Cash remains most widely accepted payment method in euro area",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-08-13T09:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "1d4d5d004b19f8eb",
+      "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-08-11T08:30:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "00b08b84e24761a5",
+      "title": "ECB publishes consolidated banking data for end-March 2026",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-08-07T08:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -662,6 +926,28 @@
       }
     },
     {
+      "id": "f2edce292a6e090e",
+      "title": "Digital euro app to incorporate highest accessibility standards",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-07-30T08:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
       "id": "732ae274d5e49fb9",
       "title": "Federal Reserve issues FOMC statement",
       "summary": "Federal Reserve issues FOMC statement",
@@ -678,6 +964,50 @@
         "magnitude": "faible",
         "confidence": 50,
         "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "68d9889f74260a97",
+      "title": "ECB wage tracker at 2.7% in Q1 2027, indicating stable negotiated wage pressures",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-07-29T08:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "7bd8feab00c88c6b",
+      "title": "Philip R. Lane: Outlook for the euro area economy",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Économie",
+      "published": "2026-07-24T15:30:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Économie.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
