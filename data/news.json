@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T12:10:19.928535+00:00",
+  "updatedAt": "2026-09-10T12:43:44.527656+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -228,7 +228,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:09:51.927197+00:00",
+      "published": "2026-09-10T12:43:20.917532+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:09:51.927173+00:00",
+      "published": "2026-09-10T12:43:20.917506+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:09:51.927147+00:00",
+      "published": "2026-09-10T12:43:20.917479+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:09:51.927117+00:00",
+      "published": "2026-09-10T12:43:20.917447+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,8 +316,30 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:09:51.927068+00:00",
+      "published": "2026-09-10T12:43:20.917391+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "981b0327a1de2172",
+      "title": "Monetary policy decisions",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-09-10T12:15:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -956,28 +978,6 @@
       "sector": "Finance",
       "published": "2026-07-30T15:00:00+00:00",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "f2edce292a6e090e",
-      "title": "Digital euro app to incorporate highest accessibility standards",
-      "summary": "",
-      "source": "BCE",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-07-30T08:00:00+00:00",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
