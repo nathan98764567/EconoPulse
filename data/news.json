@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T12:43:44.527656+00:00",
+  "updatedAt": "2026-09-10T13:07:45.709877+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -228,7 +228,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:43:20.917532+00:00",
+      "published": "2026-09-10T13:07:24.093425+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:43:20.917506+00:00",
+      "published": "2026-09-10T13:07:24.093406+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:43:20.917479+00:00",
+      "published": "2026-09-10T13:07:24.093383+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:43:20.917447+00:00",
+      "published": "2026-09-10T13:07:24.093358+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,8 +316,30 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-10T12:43:20.917391+00:00",
+      "published": "2026-09-10T13:07:24.093309+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "49654ad7ef2234c4",
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-09-10T13:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -802,28 +824,6 @@
       "sector": "Finance",
       "published": "2026-08-11T08:30:00+00:00",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "00b08b84e24761a5",
-      "title": "ECB publishes consolidated banking data for end-March 2026",
-      "summary": "",
-      "source": "BCE",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-08-07T08:00:00+00:00",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
