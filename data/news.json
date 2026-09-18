@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T04:08:06.233454+00:00",
+  "updatedAt": "2026-09-18T09:06:39.062738+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -228,7 +228,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-18T04:07:44.258608+00:00",
+      "published": "2026-09-18T09:06:18.014249+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-18T04:07:44.258582+00:00",
+      "published": "2026-09-18T09:06:18.014223+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-18T04:07:44.258552+00:00",
+      "published": "2026-09-18T09:06:18.014195+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-18T04:07:44.258515+00:00",
+      "published": "2026-09-18T09:06:18.014163+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,7 +316,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-18T04:07:44.258432+00:00",
+      "published": "2026-09-18T09:06:18.014111+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
       "impact": "à surveiller",
       "entities": [],
@@ -326,6 +326,50 @@
         "magnitude": "faible",
         "confidence": 50,
         "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "649cd91c110c373f",
+      "title": "ECB Consumer Expectations Survey results – August 2026",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-09-18T08:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "eddbc79037c35f36",
+      "title": "Boris Vujčić: Interview with Reuters",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-09-18T06:00:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
@@ -728,28 +772,6 @@
       }
     },
     {
-      "id": "392ea3c69ff3c98f",
-      "title": "Isabel Schnabel: Central banks on-chain",
-      "summary": "",
-      "source": "BCE",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-08-28T16:00:00+00:00",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 17,
-        "direction": "neutre",
-        "magnitude": "élevé",
-        "confidence": 72,
-        "explanation": "Impact encore difficile à trancher, intensité élevé. Secteur principal : Finance. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
       "id": "79b5fc9dead8a71f",
       "title": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
       "summary": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
@@ -758,28 +780,6 @@
       "sector": "Finance",
       "published": "2026-08-27T15:00:00+00:00",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "2f57657ad4b3c999",
-      "title": "Meeting of 22-23 July 2026",
-      "summary": "",
-      "source": "BCE",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-08-27T11:30:00+00:00",
-      "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
