@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T08:49:41.966034+00:00",
+  "updatedAt": "2026-09-30T15:33:03.281423+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -228,7 +228,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-30T08:49:18.452269+00:00",
+      "published": "2026-09-30T15:32:32.633471+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-30T08:49:18.452250+00:00",
+      "published": "2026-09-30T15:32:32.633446+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-30T08:49:18.452228+00:00",
+      "published": "2026-09-30T15:32:32.633418+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-30T08:49:18.452203+00:00",
+      "published": "2026-09-30T15:32:32.633368+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,7 +316,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-09-30T08:49:18.452144+00:00",
+      "published": "2026-09-30T15:32:32.633315+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
       "impact": "à surveiller",
       "entities": [],
@@ -326,6 +326,28 @@
         "magnitude": "faible",
         "confidence": 50,
         "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "792e51e0964643ce",
+      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+      "source": "Federal Reserve",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-09-30T13:00:00+00:00",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
@@ -992,14 +1014,14 @@
       }
     },
     {
-      "id": "4dee6b65b42e8d4f",
-      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "summary": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "id": "486355fb10b6aaf9",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
       "source": "Federal Reserve",
       "sourceType": "officiel",
       "sector": "Finance",
       "published": "2026-08-20T15:00:00+00:00",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -1014,14 +1036,14 @@
       }
     },
     {
-      "id": "486355fb10b6aaf9",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "id": "4dee6b65b42e8d4f",
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "summary": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
       "source": "Federal Reserve",
       "sourceType": "officiel",
       "sector": "Finance",
       "published": "2026-08-20T15:00:00+00:00",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -1074,28 +1096,6 @@
         "magnitude": "faible",
         "confidence": 50,
         "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "37b8ca3826ca4890",
-      "title": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
-      "summary": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
-      "source": "Federal Reserve",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-08-04T20:30:00+00:00",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
-      "impact": "important",
-      "entities": [],
-      "analysis": {
-        "score": 61,
-        "direction": "positif",
-        "magnitude": "élevé",
-        "confidence": 95,
-        "explanation": "Impact plutôt favorable, intensité élevé. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
