@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T14:20:27.167009+00:00",
+  "updatedAt": "2026-10-06T19:39:36.137499+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -90,6 +90,28 @@
       }
     },
     {
+      "id": "68821a12e63061b7",
+      "title": "Speech: Tiff Macklem, Governor",
+      "summary": "Greater Vancouver Board of Trade Vancouver, British Columbia",
+      "source": "Banque du Canada",
+      "sourceType": "officiel",
+      "sector": "Économie",
+      "published": "2026-12-15T18:26:15+00:00",
+      "url": "https://www.bankofcanada.ca/2026/12/speech-tiff-macklem-governor-december-15-2026/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 17,
+        "direction": "neutre",
+        "magnitude": "élevé",
+        "confidence": 72,
+        "explanation": "Impact encore difficile à trancher, intensité élevé. Secteur principal : Économie. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
       "id": "b3b2cd0fc914a311",
       "title": "Interest Rate Announcement",
       "summary": "09:45 (ET) On eight scheduled dates each year, the Bank of Canada announces the setting for the overnight rate target in a press release explaining the factors behind the decision.",
@@ -106,6 +128,50 @@
         "magnitude": "élevé",
         "confidence": 72,
         "explanation": "Impact encore difficile à trancher, intensité élevé. Secteur principal : Finance. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "c5ebcec4d961ddaa",
+      "title": "Speech: Tiff Macklem, Governor",
+      "summary": "Economic Club of Canada Toronto, ON",
+      "source": "Banque du Canada",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-11-24T18:19:35+00:00",
+      "url": "https://www.bankofcanada.ca/2026/11/speech-tiff-macklem-governor-november-24-2026/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "22a7ccb4f3818000",
+      "title": "Release: Senior Loan Officer Survey",
+      "summary": "10:30 (ET) The Senior Loan Officer Survey collects information on the business-lending practices of Canadian financial institutions.",
+      "source": "Banque du Canada",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-11-20T10:30:11+00:00",
+      "url": "https://www.bankofcanada.ca/2026/11/release-senior-loan-officer-survey-november-20-2026/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
@@ -156,79 +222,13 @@
       }
     },
     {
-      "id": "d5368dcafd132afb",
-      "title": "Release: Market Participants Survey",
-      "summary": "10:30 (ET) The Market Participants Survey is conducted quarterly. Bank of Canada staff reach out to a diverse set of participants in financial markets to gather their views on key macroeconomic and financial variables as well as on monetary policy.",
-      "source": "Banque du Canada",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-11-09T10:30:55+00:00",
-      "url": "https://www.bankofcanada.ca/2026/11/release-market-participants-survey-november-9-2026/",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "14ab812bea66f7fb",
-      "title": "Interest Rate Announcement and Monetary Policy Report",
-      "summary": "09:45 (ET)On eight scheduled dates each year, the Bank of Canada announces the setting for the overnight rate target in a press release explaining the factors behind the decision. Four times a year, Governing Council presents the Monetary Policy Report: the Bank’s base-case projection for inflation and growth in the Canadian economy, and its assessment of risks.",
-      "source": "Banque du Canada",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-10-28T09:45:56+00:00",
-      "url": "https://www.bankofcanada.ca/2026/10/interest-rate-announcement-and-monetary-policy-report-october-28-2026/",
-      "impact": "important",
-      "entities": [],
-      "analysis": {
-        "score": 45,
-        "direction": "positif",
-        "magnitude": "élevé",
-        "confidence": 95,
-        "explanation": "Impact plutôt favorable, intensité élevé. Secteur principal : Finance. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "bfd17d2a6d6aefde",
-      "title": "Release: Business Outlook Survey and Canadian Survey of Consumer Expectations",
-      "summary": "11:30 (ET) The Business Outlook Survey is a summary of interviews conducted by the Bank's regional offices with business leaders from about 100 firms, selected in accordance with the composition of Canada's gross domestic product. The Canadian Survey of Consumer Expectations is a quarterly survey aimed at measuring household views of inflation, the labour market and household finances, as well as topical issues of interest to the Bank of Canada.",
-      "source": "Banque du Canada",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-10-19T11:30:20+00:00",
-      "url": "https://www.bankofcanada.ca/2026/10/release-business-outlook-survey-and-canadian-survey-of-consumer-expectations-october-19-2026/",
-      "impact": "important",
-      "entities": [],
-      "analysis": {
-        "score": 17,
-        "direction": "neutre",
-        "magnitude": "élevé",
-        "confidence": 72,
-        "explanation": "Impact encore difficile à trancher, intensité élevé. Secteur principal : Finance. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
       "id": "e19a046b1832fa17",
       "title": "Proclamations",
       "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-06T14:20:03.030279+00:00",
+      "published": "2026-10-06T19:39:13.850686+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-06T14:20:03.030253+00:00",
+      "published": "2026-10-06T19:39:13.850671+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-06T14:20:03.030225+00:00",
+      "published": "2026-10-06T19:39:13.850655+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-06T14:20:03.030193+00:00",
+      "published": "2026-10-06T19:39:13.850635+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,7 +316,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-06T14:20:03.030143+00:00",
+      "published": "2026-10-06T19:39:13.850595+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
       "impact": "à surveiller",
       "entities": [],
