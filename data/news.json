@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T12:51:26.828001+00:00",
+  "updatedAt": "2026-10-13T19:43:15.571843+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -228,7 +228,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-13T12:51:03.902094+00:00",
+      "published": "2026-10-13T19:42:56.054653+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-13T12:51:03.902069+00:00",
+      "published": "2026-10-13T19:42:56.054629+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-13T12:51:03.902041+00:00",
+      "published": "2026-10-13T19:42:56.054602+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-13T12:51:03.902010+00:00",
+      "published": "2026-10-13T19:42:56.054569+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,7 +316,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-10-13T12:51:03.901958+00:00",
+      "published": "2026-10-13T19:42:56.054514+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
       "impact": "à surveiller",
       "entities": [],
@@ -326,6 +326,50 @@
         "magnitude": "faible",
         "confidence": 50,
         "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "3971dd17962119be",
+      "title": "Philip R. Lane: The AI opportunity for Europe",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Technologie",
+      "published": "2026-10-13T18:30:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 0,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 45,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Technologie.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "09af64bdf4f044cf",
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "source": "Federal Reserve",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-10-13T18:00:00+00:00",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
@@ -838,28 +882,6 @@
       }
     },
     {
-      "id": "916c0c17b1b8594f",
-      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
-      "summary": "",
-      "source": "BCE",
-      "sourceType": "officiel",
-      "sector": "Politique",
-      "published": "2026-09-29T08:00:00+00:00",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
       "id": "8314c1cc3072f46e",
       "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
       "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
@@ -948,14 +970,14 @@
       }
     },
     {
-      "id": "63d94c7ac0d54408",
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "id": "c1a7858b4494ec25",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
       "source": "Federal Reserve",
       "sourceType": "officiel",
       "sector": "Finance",
       "published": "2026-09-18T15:00:00+00:00",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -970,14 +992,14 @@
       }
     },
     {
-      "id": "c1a7858b4494ec25",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "id": "63d94c7ac0d54408",
+      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
       "source": "Federal Reserve",
       "sourceType": "officiel",
       "sector": "Finance",
       "published": "2026-09-18T15:00:00+00:00",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -1074,28 +1096,6 @@
         "magnitude": "faible",
         "confidence": 50,
         "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "de72f44e400e962d",
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "summary": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "source": "Federal Reserve",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-09-04T15:00:00+00:00",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
-      "impact": "important",
-      "entities": [],
-      "analysis": {
-        "score": 61,
-        "direction": "positif",
-        "magnitude": "élevé",
-        "confidence": 95,
-        "explanation": "Impact plutôt favorable, intensité élevé. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
