@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T04:21:47.143242+00:00",
+  "updatedAt": "2026-11-11T12:00:27.526002+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -200,35 +200,13 @@
       }
     },
     {
-      "id": "158463103cc55aa9",
-      "title": "Remembrance Day",
-      "summary": "National holiday",
-      "source": "Banque du Canada",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-11-11T10:10:54+00:00",
-      "url": "https://www.bankofcanada.ca/2026/11/remembrance-day-3/",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
       "id": "e19a046b1832fa17",
       "title": "Proclamations",
       "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-11T04:21:25.154816+00:00",
+      "published": "2026-11-11T12:00:00.680321+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +228,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-11T04:21:25.154795+00:00",
+      "published": "2026-11-11T12:00:00.680300+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-11T04:21:25.154764+00:00",
+      "published": "2026-11-11T12:00:00.680276+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-11T04:21:25.154739+00:00",
+      "published": "2026-11-11T12:00:00.680249+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-11T04:21:25.154692+00:00",
+      "published": "2026-11-11T12:00:00.680192+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
       "impact": "à surveiller",
       "entities": [],
@@ -326,6 +304,28 @@
         "magnitude": "faible",
         "confidence": 50,
         "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "158463103cc55aa9",
+      "title": "Remembrance Day",
+      "summary": "National holiday",
+      "source": "Banque du Canada",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-11-11T10:10:54+00:00",
+      "url": "https://www.bankofcanada.ca/2026/11/remembrance-day-3/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
