@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T10:56:13.266233+00:00",
+  "updatedAt": "2026-11-17T19:35:37.699652+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -228,7 +228,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-17T10:55:49.239681+00:00",
+      "published": "2026-11-17T19:35:14.382210+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
       "impact": "à surveiller",
       "entities": [],
@@ -250,7 +250,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-17T10:55:49.239662+00:00",
+      "published": "2026-11-17T19:35:14.382189+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
       "impact": "à surveiller",
       "entities": [],
@@ -272,7 +272,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-17T10:55:49.239640+00:00",
+      "published": "2026-11-17T19:35:14.382167+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
       "impact": "à surveiller",
       "entities": [],
@@ -294,7 +294,7 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-17T10:55:49.239616+00:00",
+      "published": "2026-11-17T19:35:14.382141+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
       "impact": "à surveiller",
       "entities": [],
@@ -316,8 +316,30 @@
       "source": "Maison-Blanche",
       "sourceType": "officiel",
       "sector": "Politique",
-      "published": "2026-11-17T10:55:49.239570+00:00",
+      "published": "2026-11-17T19:35:14.382086+00:00",
       "url": "https://www.whitehouse.gov/presidential-actions/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "901a674f02de78c0",
+      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+      "summary": "",
+      "source": "BCE",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-11-17T18:30:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -788,28 +810,6 @@
         "magnitude": "élevé",
         "confidence": 95,
         "explanation": "Impact plutôt favorable, intensité élevé. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "e201318b327422f8",
-      "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
-      "summary": "",
-      "source": "BCE",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-10-29T15:50:00+00:00",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
