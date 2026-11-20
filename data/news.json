@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T07:36:00.474299+00:00",
+  "updatedAt": "2026-11-20T16:38:13.145483+00:00",
   "articles": [
     {
       "id": "ddd9e2c115ed6873",
@@ -178,6 +178,138 @@
       }
     },
     {
+      "id": "e19a046b1832fa17",
+      "title": "Proclamations",
+      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
+      "source": "Maison-Blanche",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-11-20T16:37:49.170310+00:00",
+      "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "754a7ee5cca17daa",
+      "title": "Presidential Memoranda",
+      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
+      "source": "Maison-Blanche",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-11-20T16:37:49.170293+00:00",
+      "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "02d073bd320fc4e7",
+      "title": "Nominations & Appointments",
+      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
+      "source": "Maison-Blanche",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-11-20T16:37:49.170275+00:00",
+      "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "8611f41c3299fb8e",
+      "title": "Executive Orders",
+      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
+      "source": "Maison-Blanche",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-11-20T16:37:49.170255+00:00",
+      "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 45,
+        "direction": "positif",
+        "magnitude": "élevé",
+        "confidence": 95,
+        "explanation": "Impact plutôt favorable, intensité élevé. Secteur principal : Politique. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "65403e4bce30d39b",
+      "title": "Presidential Actions",
+      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
+      "source": "Maison-Blanche",
+      "sourceType": "officiel",
+      "sector": "Politique",
+      "published": "2026-11-20T16:37:49.170211+00:00",
+      "url": "https://www.whitehouse.gov/presidential-actions/",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
+      "id": "b905609a60e7d3e4",
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "source": "Federal Reserve",
+      "sourceType": "officiel",
+      "sector": "Finance",
+      "published": "2026-11-20T15:00:00+00:00",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+      "impact": "à surveiller",
+      "entities": [],
+      "analysis": {
+        "score": 5,
+        "direction": "neutre",
+        "magnitude": "faible",
+        "confidence": 50,
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
+        "potentialWinners": [],
+        "potentialRisks": [],
+        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
+      }
+    },
+    {
       "id": "22a7ccb4f3818000",
       "title": "Release: Senior Loan Officer Survey",
       "summary": "10:30 (ET) The Senior Loan Officer Survey collects information on the business-lending practices of Canadian financial institutions.",
@@ -200,14 +332,14 @@
       }
     },
     {
-      "id": "e19a046b1832fa17",
-      "title": "Proclamations",
-      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
-      "source": "Maison-Blanche",
+      "id": "c7b5b909b02a31f2",
+      "title": "Christine Lagarde: Acting in time",
+      "summary": "",
+      "source": "BCE",
       "sourceType": "officiel",
-      "sector": "Politique",
-      "published": "2026-11-20T07:35:36.918465+00:00",
-      "url": "https://www.whitehouse.gov/presidential-actions/proclamations/",
+      "sector": "Finance",
+      "published": "2026-11-20T08:30:00+00:00",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
@@ -215,95 +347,7 @@
         "direction": "neutre",
         "magnitude": "faible",
         "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "754a7ee5cca17daa",
-      "title": "Presidential Memoranda",
-      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
-      "source": "Maison-Blanche",
-      "sourceType": "officiel",
-      "sector": "Politique",
-      "published": "2026-11-20T07:35:36.918441+00:00",
-      "url": "https://www.whitehouse.gov/presidential-actions/presidential-memoranda/",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "02d073bd320fc4e7",
-      "title": "Nominations & Appointments",
-      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
-      "source": "Maison-Blanche",
-      "sourceType": "officiel",
-      "sector": "Politique",
-      "published": "2026-11-20T07:35:36.918415+00:00",
-      "url": "https://www.whitehouse.gov/presidential-actions/nominations-appointments/",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "8611f41c3299fb8e",
-      "title": "Executive Orders",
-      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
-      "source": "Maison-Blanche",
-      "sourceType": "officiel",
-      "sector": "Politique",
-      "published": "2026-11-20T07:35:36.918385+00:00",
-      "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 45,
-        "direction": "positif",
-        "magnitude": "élevé",
-        "confidence": 95,
-        "explanation": "Impact plutôt favorable, intensité élevé. Secteur principal : Politique. Le sujet peut aussi avoir des effets indirects sur d’autres secteurs.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "65403e4bce30d39b",
-      "title": "Presidential Actions",
-      "summary": "Source officielle : action publiée sur le site de la Maison-Blanche.",
-      "source": "Maison-Blanche",
-      "sourceType": "officiel",
-      "sector": "Politique",
-      "published": "2026-11-20T07:35:36.918316+00:00",
-      "url": "https://www.whitehouse.gov/presidential-actions/",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Politique.",
+        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
         "potentialWinners": [],
         "potentialRisks": [],
         "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
@@ -816,28 +860,6 @@
       }
     },
     {
-      "id": "8a2904e4a0c6466f",
-      "title": "Philip R. Lane: AI adoption in Europe",
-      "summary": "",
-      "source": "BCE",
-      "sourceType": "officiel",
-      "sector": "Technologie",
-      "published": "2026-10-30T16:10:00+00:00",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 0,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 45,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Technologie.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
       "id": "29dedf224825e6dd",
       "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
       "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
@@ -1066,28 +1088,6 @@
       "sector": "Finance",
       "published": "2026-10-02T15:00:00+00:00",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-      "impact": "à surveiller",
-      "entities": [],
-      "analysis": {
-        "score": 5,
-        "direction": "neutre",
-        "magnitude": "faible",
-        "confidence": 50,
-        "explanation": "Impact encore difficile à trancher, intensité faible. Secteur principal : Finance.",
-        "potentialWinners": [],
-        "potentialRisks": [],
-        "disclaimer": "Analyse automatique indicative, pas une recommandation financière."
-      }
-    },
-    {
-      "id": "792e51e0964643ce",
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "source": "Federal Reserve",
-      "sourceType": "officiel",
-      "sector": "Finance",
-      "published": "2026-09-30T13:00:00+00:00",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
       "impact": "à surveiller",
       "entities": [],
       "analysis": {
